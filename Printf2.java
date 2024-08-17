@@ -12,7 +12,7 @@ public class Printf2 {
         
         String str="Java";
         System.out.printf("%20s\n",str);
-        System.err.printf("%-20s\n",str);
+        System.out.printf("%-20s\n",str);
     }
     
 }
