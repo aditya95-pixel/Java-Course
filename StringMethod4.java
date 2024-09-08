@@ -9,6 +9,7 @@ public class StringMethod4 {
         str1="accbdefg";
         System.out.println(str1.matches("[abc]{3,7}"));
         str1="accb";
+        System.out.println(str1.matches("[abc]{3,7}"));
         str1="john@gmail.com";
         System.out.println(str1.matches(".*gmail.*"));
         System.out.println(str1.matches("\\w*@gmail(.*)"));
